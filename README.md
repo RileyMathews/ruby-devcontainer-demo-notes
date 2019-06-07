@@ -1,17 +1,26 @@
 # VSCode devcontainers with ruby
 - What are dev contaienrs
   - Docker
+    - Why docker for local development
+      - meddling with gems
+      - more similar to production environment
+        - Talk about recent ACA encoding error that only happened in docker
   - VS Code
   - VS Code Server vs Client
+  - VS Code dev container definitions
 - .devcontainer directory
+  - Talk about how VS code manages/uses this directory
+  - Show quick menu to create a new container definition
   - devcontainer.json
   - optional dev only dockerfile
 - devcontainer.json file
   - Important keys
-    - Dockerfile
-    - Context
+    - dockerFile
+    - context
     - appPort
     - extensions
+      - UI vs Server extensions
+      - Show how to override them in editor settings
     - settings
 - docker vs docker compose
   - why docker compose
@@ -22,9 +31,9 @@
     - Show running specs
     - Show building assets
     - Show running the app
-    - Talk about extensions 
-      - UI vs Server extensions
-      - Show how to override them in editor settings
+    - Add pry to new relic gem and force error
+    - Show docker compose file and talk about reasonining behind it
+    - Talk about how VS code uses the docker compose file vs how it would use a normal dockerfile
   - Rails
     - Talk about rails unique things to devcontainer
-    
+      - set default port binding

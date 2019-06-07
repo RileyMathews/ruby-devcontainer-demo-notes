@@ -1,0 +1,11 @@
+{
+    "dockerFile": "path to docker file",
+    "context": "path to project root directory",
+    "settings": {},
+    "extensions": [
+        "rebornix.ruby",
+        "castwide.solargraph",
+        "kaiwood.endwise",
+        "noku.rails-run-spec-vscode"
+    ]
+}
