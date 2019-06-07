@@ -1,0 +1,30 @@
+# VSCode devcontainers with ruby
+- What are dev contaienrs
+  - Docker
+  - VS Code
+  - VS Code Server vs Client
+- .devcontainer directory
+  - devcontainer.json
+  - optional dev only dockerfile
+- devcontainer.json file
+  - Important keys
+    - Dockerfile
+    - Context
+    - appPort
+    - extensions
+    - settings
+- docker vs docker compose
+  - why docker compose
+  - changes to dev container setup
+- demo
+  - ACA
+    - Show terminal running inside container
+    - Show running specs
+    - Show building assets
+    - Show running the app
+    - Talk about extensions 
+      - UI vs Server extensions
+      - Show how to override them in editor settings
+  - Rails
+    - Talk about rails unique things to devcontainer
+    
