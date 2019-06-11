@@ -35,5 +35,8 @@
     - Show docker compose file and talk about reasonining behind it
     - Talk about how VS code uses the docker compose file vs how it would use a normal dockerfile
   - Rails
+    - Show Rails console commands
+      - bin/rails generate scaffold HighScore game:string score:integer
+      - bin/rails db:migrate
     - Talk about rails unique things to devcontainer
       - set default port binding
